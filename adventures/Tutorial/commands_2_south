@@ -1,0 +1,18 @@
+<scenario>
+    <title>South path</title> 
+
+    <scenariop>'You decide to go south and arrive to a cliff. It looks dangerous, maybe you should go back and explore the other paths.'</scenariop>
+
+    <action input="default" type="text" content="Time to GO BACK"></action>
+
+    <action input="player" type="jump" content="commands_2">
+        <command>go back</command>
+    </action>
+
+    <action input="player" type="text" content="Do you really think this is the time to be laying around?">
+        <command>sit down</command>
+        <command>lay down</command>
+        <command>sit</command>
+        <command>sleep</command>
+    </action>
+</scenario>

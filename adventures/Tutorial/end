@@ -1,0 +1,8 @@
+<scenario>
+    <title>Done!</title> 
+
+    <scenariop>Well done! You are now ready to play TextVentures! Just a couple of tips: read carefully the story so you don't skip anything important and think of the easiest solution, it will probably be the correct one.</scenariop>
+    <scenariop>You can always start the tutorial again by overwritting the saved game!<scenariop>
+
+    <action input="default" type="text" content="Just write [exit] to leave and go back to the main menu"></action>
+</scenario>

@@ -1,0 +1,35 @@
+<scenario>
+    <title>Commands 2</title> 
+
+    <scenariop>Great! Last scenario was an example of linear story, but it required some intellect to find the correct action. In this example, you will be presented with several choices. After you have checked them all, please write [continue tutorial].</scenariop>
+    <scenariop>'After going through the door, you find yourself in a forest and the door is nowhere to be seen. At this point, you wonder what direction to take, either NORTH, SOUTH, EAST or WEST. Seeing that you have nothing to do, you decide to go check all of them and figure out where you are.'</scenariop>
+
+    <action input="default" type="text" content="Check all the four directions and then write [continue tutorial]. HINT: try [go direction]"></action>
+
+    <action input="player" type="jump" content="game_saving">
+        <command>continue tutorial</command>
+    </action>
+
+    <action input="player" type="jump" content="commands_2_north">
+        <command>go north</command>
+    </action>
+
+    <action input="player" type="jump" content="commands_2_south">
+        <command>go south</command>
+    </action>
+
+    <action input="player" type="jump" content="commands_2_east">
+        <command>go east</command>
+    </action>
+
+    <action input="player" type="jump" content="commands_2_west">
+        <command>go west</command>
+    </action>
+
+    <action input="player" type="text" content="Do you really think this is the time to be laying around?">
+        <command>sit down</command>
+        <command>lay down</command>
+        <command>sit</command>
+        <command>sleep</command>
+    </action>
+</scenario>

@@ -1,0 +1,24 @@
+<scenario>
+    <title>Commands</title> 
+
+    <scenariop>Well done, you now know how to press [RETURN]! This may not sound like much, but it really is, trust me.</scenariop>
+    <scenariop>Now, you have had your first contact with commands. Usually, you will have to think the correct command or action for yourself, so pay attention to the text you are presented with. For now, let's have a go with a simple example: I will show you the description of a room and you will have to find the way out.</scenariop>
+    <scenariop>'This room has the walls painted in green, quite a color if I may say so. When you look around, you see that there is not much in there, just a bed, a table, a bookshelf and a door which appears to be open. It shouldn't be very difficult to find a way to EXIT the ROOM'</scenariop>
+
+    <action input="default" type="text" content="You see, I think it's pretty easy to EXIT the ROOM"></action>
+
+    <action input="player" type="text" content="Try again without the 'the' part">
+        <command>exit the room</command>
+    </action>
+
+    <action input="player" type="text" content="It's already open">
+        <command>open door</command>
+        <command>open the door</command>
+    </action>
+
+    <action input="player" type="jump" content="commands_2">
+        <command>exit room</command>
+        <command>leave room</command>
+        <command>exit door</command>
+    </action>
+</scenario>

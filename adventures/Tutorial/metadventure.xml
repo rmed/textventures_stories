@@ -1,0 +1,10 @@
+<textventure>
+    <title>TextVentures Tutorial</title>
+    <description>Learn how to play TextVentures</description>
+    <author>RMed</author>
+    <email></email>
+    <url>http://github.com/RMed/textventures</url>
+    <version>1.0.0</version>
+    <compatible>0.0.1</compatible>
+    <first>intro</first>
+</textventure>
