@@ -3,7 +3,7 @@
 
     <scenariop>Great! You may have wondered "what happens with my progress!?". Don't worry, your progress is saved each time a scenario is loaded. For instance, try writing [exit] to go back to the main menu and then load the game again.</scenariop>
     <scenariop>If you went back to the main menu and are seeing this, then that means that your game is being saved correctly! Note that if you start a new game with the same ID than a previous game, given that you play the same story, your game will be overwritten, so be careful when starting a new game.</scenariop>
-    <scenario>CONTINUE to the next scenario</scenariop>
+    <scenariop>CONTINUE to the next scenario</scenariop>
 
     <action input="default" type="text" content="Come on, continue!"></action>
 
