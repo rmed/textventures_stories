@@ -1,0 +1,9 @@
+<scenario>
+    <title>Introduction</title> 
+
+    <scenariop>Welcome to the TextVentures tutorial! With this adventure you will learn how to play TextVentures through a series of example scenarios.</scenariop>
+    <scenariop>In order to advance in the adventures, you will need to enter the appropriate commands depending on the context. Each command, or action, will have a different effect in the scenario. Remember that you have to press [RETURN] in order to issue a command. You surely see that prompt (->) at the bottom of the screen, right? Thats where you can write your commands and where resulting messages appear. HINT: you can always go back to the main menu by writing 'MENU' (without quotes and in caps).</scenariop>
+    <scenariop>So, let's get started, shall we? In order to advance to the next scenario, press [RETURN]</scenariop>
+
+    <action input="default" type="jump" content="commands"></action>      
+</scenario>

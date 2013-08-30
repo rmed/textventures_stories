@@ -1,0 +1,38 @@
+<scenario>
+    <title>Comandos 2</title> 
+
+    <scenariop>¡Genial! El anterior escenario era un ejemplo de historia lineal, pero requería algo de intelecto para encontrar la acción adecuada. En este ejemplo, se te mostrarán distintas opciones. Después de comprobarlas todas, por favor escribe [continuar tutorial].</scenariop>
+    <scenariop>'Después de atravesar la puerta, ves que te encuentrás en un bosque y que la puerta ha desaparecido. En este punto, te preguntas qué direción deberías tomar: NORTE, SUR, ESTE u OESTE. Como no tienes nada que hacer, decides comprobarlas todas para averiguar dónde te encuentras.'</scenariop>
+
+    <action input="default" type="text" content="Comprueba las cuatro direcciones y después escribe [continue tutorial]. CONSEJO: prueba [ir a dirección]"></action>
+
+    <action input="player" type="jump" content="game_saving">
+        <command>continuar tutorial</command>
+    </action>
+
+    <action input="player" type="jump" content="commands_2_north">
+        <command>ir norte</command>
+        <command>ir al norte</command>
+    </action>
+
+    <action input="player" type="jump" content="commands_2_south">
+       <command>ir sur</command>
+       <command>ir al sur</command>
+    </action>
+
+    <action input="player" type="jump" content="commands_2_east">
+       <command>ir este</command>
+       <command>ir al este</command>
+    </action>
+
+    <action input="player" type="jump" content="commands_2_west">
+       <command>ir oeste</command>
+       <command>ir al oeste</command>
+    </action>
+
+    <action input="player" type="text" content="¿Te parece un buen momento para estar ahí tirado?">
+        <command>sentarse</command>
+        <command>tumbarse</command>
+        <command>dormir</command>
+    </action>
+</scenario>

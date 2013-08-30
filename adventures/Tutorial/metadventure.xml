@@ -4,7 +4,11 @@
     <author>RMed</author>
     <email></email>
     <url>http://github.com/RMed/textventures</url>
-    <version>1.0.0</version>
-    <compatible>0.0.2</compatible>
+    <version>1.1.0</version>
+    <compatible>0.2</compatible>
     <first>intro</first>
+    <locale>
+        <lang>en</lang>
+        <lang>es</lang>
+    </locale>
 </textventure>

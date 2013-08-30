@@ -1,0 +1,8 @@
+<scenario>
+    <title>¡Hecho!</title> 
+
+    <scenariop>¡Bien hecho! ¡Ya estás list@ para jugar a TextVentures! Sólo un par de consejos: lee atentamente la historia para evitar saltarte algún dato importante y piensa en la solución más sencilla, probablemente sea la correcta.</scenariop>
+    <scenariop>¡Siempre puedes volver a empezar este tutorial sobreescribiendo la partida guardada!</scenariop>
+
+    <action input="default" type="text" content="Escribe [MENU] para volver al menú principal"></action>
+</scenario>

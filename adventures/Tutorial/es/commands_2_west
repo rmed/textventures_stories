@@ -1,0 +1,23 @@
+<scenario>
+    <title>Camino del oeste</title> 
+
+    <scenariop>'Decides ir al oeste. Aquí hay una montaña. Te planteas treparla, pero está muy empinada y decides volver y explorar los otros caminos.'</scenariop>
+
+    <action input="default" type="text" content="Hora de VOLVER"></action>
+
+    <action input="player" type="jump" content="commands_2">
+        <command>volver</command>
+        <command>volver atrás</command>
+    </action>
+
+    <action input="player" type="text" content="¿Te parece un buen momento para estar ahí tirado?">
+        <command>sentarse</command>
+        <command>tumbarse</command>
+        <command>dormir</command>
+    </action>
+
+    <action input="player" type="text" content="¡He dicho que está muy empinada!">
+        <command>trepar</command>
+        <command>trepar montaña</command>
+    </action>
+</scenario>

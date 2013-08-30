@@ -1,0 +1,9 @@
+<scenario>
+    <title>Introducción</title> 
+
+    <scenariop>¡Bienvenid@ al tutorial de TextVentures! En esta aventura aprenderás a jugar a TextVentures mediante una serie de escenarios de ejemplo.</scenariop>
+    <scenariop>Para poder avanzar en las aventuras, deberás introducir los comandos apropiados, dependiendo del contexto. Cada comando, o acción, tendrá un efecto diferente en el escenario. Recuerda que tienes que pulsar [INTRO] para usar el comando escrito. Seguro que ves ese símbolo (->) en la parte de abajo de la pantalla, ¿verdad? Ahí es donde puedes escribir tus comandos y donde aparecerán los mensajes resultantes. CONSEJO: siempre puedes volver al menú principal escribiendo [MENU] (en mayúsculas).</scenariop>
+    <scenariop>Empecemos, ¿te parece? Para avanzar al siguiente escenario, pulsa [INTRO]</scenariop>
+
+    <action input="default" type="jump" content="commands"></action>      
+</scenario>

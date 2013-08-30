@@ -1,0 +1,24 @@
+<scenario>
+    <title>Comandos</title> 
+
+    <scenariop>¡Bien hecho, ahora sabes cómo pulsar [INTRO]! Puede que no parezca mucho, pero lo es, créeme.</scenariop>
+    <scenariop>Bueno, acabas de tener un primer contacto con los comandos. Normalmente, tendrás que pensar tú el comando o acción, así que presta atención al texto que se te muestra. Por ahora, veamos un simple ejemplo: te mostraré la descripción de una habitación y tú tendrás que encontrar la forma de salir de ella.</scenariop>
+    <scenariop>'Las paredes de esta habitación están pintadas de verde, menudo color, si se me permite decirlo. Cuando echas un vistazo a tu alrededor, ves que no hay mucho, sólo una cama, una mesa, una estantería y una puerta que parece estar abierta. No debería ser muy difícil encontrar una forma de SALIR DE la HABITACIÓN.'</scenariop>
+
+    <action input="default" type="text" content="Verás, creo que es muy fácil SALIR DE la HABITACIÓN"></action>
+
+    <action input="player" type="text" content="Prueba otra vez sin el 'la'">
+        <command>salir de la habitación</command>
+    </action>
+
+    <action input="player" type="text" content="Ya está abierta">
+        <command>abrir puerta</command>
+        <command>abrir la puerta</command>
+    </action>
+
+    <action input="player" type="jump" content="commands_2">
+        <command>salir de habitación</command>
+        <command>dejar habitación</command>
+        <command>salir por puerta</command>
+    </action>
+</scenario>

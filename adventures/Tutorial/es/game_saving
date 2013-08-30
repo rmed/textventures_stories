@@ -1,0 +1,13 @@
+<scenario>
+    <title>Guardando la partida</title> 
+
+    <scenariop>¡Genial! Seguro que te has preguntado "¡¿y qué pasa con mi progreso?!". No te preocupes, tu progreso se guarda automáticamente caga vez que se carga un escenario. Por ejemplo, prueba a escribir [MENU] para volver al menú principal y después carga la partida de nuevo.</scenariop>
+    <scenariop>Si has vuelto al menú principal y estás viendo esto, ¡significa que tu partida ha sido guardada correctamente! Ten en cuenta que si empiezas una nueva partida con la misma ID que otra partida anterior y en la misma aventura, tu partida se sobreescribirá, así que ten cuidado cada vez que empieces una nueva partida.</scenariop>
+    <scenariop>Ahora puedes CONTINUAR al siguiente escenario</scenariop>
+
+    <action input="default" type="text" content="¡Venga, tienes que CONTINUAR!"></action>
+
+    <action input="player" type="jump" content="end">
+        <command>continuar</command>
+    </action>
+</scenario>
